@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/P_item_pager"
+    android:orientation="vertical"
+    > 
+    
+    <AbsoluteLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/P_home"
+        >
+	
+	<sas.buxtar.movil.heroican.process.RecyclingImageView
+	    android:id="@+id/pagerItem_img"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scaleType="centerCrop"
+	    />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    >
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="90"
+		    android:orientation="horizontal"
+		    >
+		    <LinearLayout 
+		        android:layout_width="0dp"
+		        android:layout_weight="60"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        ></LinearLayout>
+		    <LinearLayout 
+		        android:layout_width="0dp"
+		        android:layout_weight="40"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:background="@drawable/shape_dark"
+		        >
+				<TextView
+				    android:id="@+id/pagerItem_Txt"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:text="AQUI"
+				    android:padding="@dimen/P_item_pager_txt"
+				    android:textColor="@color/blanco"
+				    android:textSize="@dimen/font_pager"
+				    android:textStyle="bold"
+				    />
+		    </LinearLayout>
+		</LinearLayout>
+		<TextView
+		    android:id="@+id/pagerItem_tira"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/H_tira_pager"
+		    android:background="@color/azulagua"/>
+	</LinearLayout>
+	
+	<Button
+	    android:background="@drawable/selector"
+	    android:id="@+id/pagerItem_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    />
+	
+	</AbsoluteLayout>
+
+</LinearLayout>

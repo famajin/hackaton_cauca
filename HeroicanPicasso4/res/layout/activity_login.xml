@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+	<include layout="@layout/toolbar2"/>
+    
+    <sas.buxtar.movil.heroican.process.RecyclingImageView
+        android:id="@+id/login_fondo" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_fondologin1"
+        android:scaleType="centerCrop"
+        />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+			<LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_gravity="bottom"
+			    android:gravity="bottom"
+		        android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin">
+				
+			<ScrollView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    >
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        >
+			        
+				    <EditText 
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:id="@+id/login_txtUsuario"
+				        android:hint="@string/subFun_email"
+				        android:gravity="center"
+				        android:inputType="textWebEmailAddress"
+				        android:textColor="@color/blanco"
+				        />
+				    <EditText 
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:id="@+id/login_txtPassword"
+				        android:hint="@string/reg_password"
+				        android:inputType="textPassword"
+				        android:layout_marginTop="10dp"
+				        android:layout_marginBottom="12dp"
+				        android:gravity="center"
+				        android:textColor="@color/blanco"
+				        />
+				    <Button 
+				        android:layout_width="wrap_content"
+				        android:layout_height="44dp"
+				        android:padding="@dimen/p_btnlogin"
+				        android:layout_gravity="center_horizontal"
+				        android:id="@+id/login_btnLogin"
+					    android:background="@drawable/selector_login"
+				        android:textColor="@color/blanco"
+				        android:textStyle="bold"
+				        android:text="@string/login"
+				        android:textSize="@dimen/font_media"			        
+				        />
+				        
+				    </LinearLayout>
+			</ScrollView>
+
+			    
+<!-- 	        <ImageView -->
+<!-- 	            android:id="@+id/login_btnFacebook" -->
+<!-- 	            android:layout_width="wrap_content" -->
+<!-- 	            android:layout_height="50dp" -->
+	            
+<!-- 	            android:layout_marginBottom="4dp" -->
+<!-- 	            android:layout_marginTop="4dp"/> -->
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:gravity="center"
+	            >
+			    <FrameLayout 
+			        android:id="@+id/login_frameFacebook"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        />
+	        </LinearLayout>
+	        
+<!-- 	        android:src="@drawable/selector_facebook" -->
+	
+	        <Button
+	            android:id="@+id/login_btnGooglePlus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="20dp"
+	            android:visibility="invisible"
+	            />
+<!-- 	        android:src="@drawable/selector_google" -->
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:animateLayoutChanges="true"
+	        >
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:id="@+id/login_linRegistro"
+		    android:visibility="gone"
+		    >
+			<Button
+		        android:id="@+id/login_btnPersona"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+				android:gravity="center"
+		        android:text="@string/reg_Persona"
+		        android:background="@null"
+		        android:textColor="@color/blanco"
+		        />
+			<Button
+		        android:id="@+id/login_btnFundacion"
+		        android:layout_width="0dp"
+		        android:layout_weight="1"
+		        android:layout_height="wrap_content"
+		        android:text="@string/reg_eresfundacion"
+		        android:background="@null"
+		        android:textColor="@color/blanco"
+		        />
+		</LinearLayout>
+		
+		<Button
+		    android:id="@+id/login_btnRegistrate"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/registrate"
+	        android:background="@null"
+	        android:textColor="@color/blanco"
+		    />
+		</RelativeLayout>
+		    </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

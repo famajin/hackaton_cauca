@@ -1,0 +1,9 @@
+package com.example.googlemaps;
+
+public class ClsCafetero {
+
+	public String cedula, password;
+	
+	public String caf_cedula, caf_nombre, caf_;
+	
+}

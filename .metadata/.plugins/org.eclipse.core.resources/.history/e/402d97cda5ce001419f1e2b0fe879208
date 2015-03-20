@@ -1,0 +1,33 @@
+package com.example.googlemaps;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class LoginActivity extends ActionBarActivity implements OnClickListener{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+		((Button)findViewById(R.id.log_btnRegistro)).setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch (v.getId()) {
+		case R.id.log_btnEntrar:
+			startActivity(new Intent(LoginActivity.this, MainActivity.class));
+			finish();
+			break;
+
+		case R.id.log_btnRegistro:
+			startActivity(new Intent(LoginActivity.this, MainActivity.class));
+			break;
+		}
+	}
+}

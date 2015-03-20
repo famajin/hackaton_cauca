@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/div_items"
+        >
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/margin_txt"
+	        android:id="@+id/viewBool_description"
+	        android:textSize="@dimen/font_medium"
+	        />
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        >
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            >
+		        <Button
+		            android:id="@+id/viewBool_yes"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+		            android:text="@string/yes"
+		            android:textSize="@dimen/font_small"
+		            android:textColor="@color/textColor"
+		            android:background="@drawable/selector_dark"
+		            />      
+		     </LinearLayout>
+
+	    	 <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical">
+		        <Button
+		            android:id="@+id/viewBool_not"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+		            android:text="@string/not"
+		            android:textSize="@dimen/font_small"
+		            android:textColor="@color/textColor"
+		            android:background="@drawable/selector_dark"
+		            />
+	        </LinearLayout>
+		</LinearLayout>
+	    <EditText
+	        android:id="@+id/viewBool_edt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/margin_edt"
+	        android:maxHeight="@dimen/max_h_edittext"
+	        />
+    </LinearLayout>
+
+
+</LinearLayout>

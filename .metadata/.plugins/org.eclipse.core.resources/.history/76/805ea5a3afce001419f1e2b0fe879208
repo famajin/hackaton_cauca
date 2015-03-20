@@ -1,0 +1,9 @@
+package com.example.googlemaps;
+
+import android.support.v4.app.Fragment;
+
+public class FragRegSlide1 extends Fragment{
+	
+	public static String TAG="FragRegSlide1";
+
+}

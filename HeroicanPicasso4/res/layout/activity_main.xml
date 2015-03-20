@@ -1,0 +1,109 @@
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<include layout="@layout/toolbar3"/>
+	<android.support.v4.widget.DrawerLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/drawer_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	
+	    <!-- Contenido Principal -->
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        >
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:background="@color/blanco"
+	        >
+<!-- 	        android:background="@drawable/ic_fondolineas" -->
+	        <FrameLayout
+	            android:id="@+id/main_content"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="90"
+		        />
+	    
+	    <RelativeLayout
+	        android:id="@+id/main_buttons"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/H_cancel"
+	        >
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="horizontal"
+		        android:background="@color/app_color"
+		        >
+		        <RelativeLayout 
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="match_parent"
+		            >
+			        <ImageButton
+			            android:id="@+id/main_btnCamera"
+			            android:layout_width="match_parent"
+			            android:layout_height="match_parent"
+						android:background="@drawable/selector"
+			            />
+			        <ImageView 
+			            android:layout_width="@dimen/h_buttons"
+			            android:layout_height="@dimen/h_buttons"
+			            android:src="@drawable/ic_camarablanca"
+			            android:layout_centerInParent="true"
+			            android:padding="10dp"
+			            />
+		        </RelativeLayout>
+		        
+		        <RelativeLayout 
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="match_parent"
+		            >
+			        <ImageButton
+			            android:id="@+id/main_btnEscuadron"
+			            android:layout_width="match_parent"
+			            android:layout_height="match_parent"
+						android:background="@drawable/selector"
+						android:padding="@dimen/P_buttons"
+			            />
+			        <ImageView 
+			            android:layout_width="@dimen/h_buttons"
+			            android:layout_height="@dimen/h_buttons"
+			            android:src="@drawable/ic_lupablanca"
+			            android:layout_centerInParent="true"
+			            android:padding="10dp"
+			            />
+		        </RelativeLayout>
+	
+		    </LinearLayout>
+	        <TextView 
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+		        android:layout_marginTop="@dimen/divider_tab"
+		        android:layout_marginBottom="@dimen/divider_tab"
+		        android:background="@color/blanco"
+		        android:layout_centerInParent="true"
+	            />
+	    </RelativeLayout>
+	        
+	    </LinearLayout>
+	    </RelativeLayout>
+	    
+	    
+	<!--     NECESITA EL GRAVITY EN START -->
+	    <FrameLayout
+	        android:id="@+id/main_drawer"
+	        android:layout_gravity="start"
+	        android:layout_width="280dp"
+	        android:layout_height="match_parent" />
+	    
+	
+	</android.support.v4.widget.DrawerLayout>
+</LinearLayout>

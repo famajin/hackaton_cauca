@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="w_dialog_share">300dp</dimen>
+    <dimen name="h_dialog_share">300dp</dimen>
+    
+    <dimen name="padding_tuto">250dp</dimen>
+    
+    <dimen name="font_card">20sp</dimen>
+    <dimen name="p_btnlogin">10dp</dimen>
+    <dimen name="w_load">180dp</dimen>
+    <dimen name="h_load">140dp</dimen>
+    <dimen name="p_load">10dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_padding">6dp</dimen>
+    
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="txt_grid_wine">14sp</dimen>
+    <dimen name="txt_grid_wine_p">5dp</dimen>
+    <dimen name="img_grid_wine_h">120dp</dimen>
+    <dimen name="grid_wine_space">8dp</dimen>
+    <dimen name="left_buttons">10dp</dimen>
+    <dimen name="H_buttons">42dp</dimen>
+    <dimen name="H_detail">320dp</dimen>
+    <dimen name="M_share">60dp</dimen>
+    <dimen name="P_buttons">6dp</dimen>
+    <dimen name="H_card">370dp</dimen>
+    <dimen name="P_cardText">4dp</dimen>
+    <dimen name="h_buttons">70dp</dimen>
+    <dimen name="font_grande">24sp</dimen>
+    <dimen name="font_pager">34sp</dimen>
+    <dimen name="font_media">16sp</dimen>
+    <dimen name="font_peque">14sp</dimen>
+    <dimen name="min_terminos">45dp</dimen>
+    <dimen name="H_cancel">48dp</dimen>
+    <dimen name="MR_gallery">10dp</dimen>
+    
+    <dimen name="min_tutorial">100dp</dimen>
+    <dimen name="padding_tutorial">6dp</dimen>
+    <dimen name="margin_tutorial">6dp</dimen>  
+    
+    <dimen name="W_bitmap">400dp</dimen>
+    <dimen name="H_bitmap">200dp</dimen>
+    <dimen name="H_itemdrawer">50dp</dimen>
+    <dimen name="P_itemdrawer">4dp</dimen>
+    <dimen name="H_imagenes">330dp</dimen>
+    <dimen name="H_imagenes_subir">390dp</dimen>
+    
+    <dimen name="minH_descripcion">100dp</dimen>
+    <dimen name="M_edittext">10dp</dimen>
+    
+    <dimen name="P_app">30dp</dimen>
+    <dimen name="P_home">16dp</dimen>
+    
+    <dimen name="P_item_pager">2dp</dimen>
+    <dimen name="H_tira_pager">20dp</dimen>
+    <dimen name="P_item_pager_txt">4dp</dimen>
+    
+    <dimen name="padding_dialog">6dp</dimen>
+    <dimen name="margin_dialog_left">4dp</dimen>
+    <dimen name="margin_dialog_right">4dp</dimen>
+    <dimen name="margin_dialog_top">4dp</dimen>
+    <dimen name="margin_dialog_bottom">4dp</dimen>
+    
+    <dimen name="item_h">280dp</dimen>
+    <dimen name="item_h_image">200dp</dimen>
+    <dimen name="item_divider">3dp</dimen>
+    
+    <dimen name="divider_tab">10dp</dimen>
+    <dimen name="divider_width">1dp</dimen>
+    
+    <dimen name="h_dialog">760dp</dimen>
+    <dimen name="w_dialog">480dp</dimen>
+    
+    <dimen name="h_dialog_login">400dp</dimen>
+    <dimen name="w_dialog_login">250dp</dimen>
+</resources>

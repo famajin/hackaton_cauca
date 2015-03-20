@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="debes_pagar">Debes pagar</string>
+    <string name="slide1">Si activas el escuadron de busqueda le avisaremos a todas las personas de tu ciudad que usen esta aplicación para que ayuden a buscar tu perrit@ y también a las fundaciones para entre todos buscar tu amiguito perruno</string>
+    <string name="slide2">Alertaremos a todas las personas que nos sigen en redes sociales, le enviaremos a los taxistas una aviso y les mandaremos notificaciones a las personas que esten cerca a donde se perdió tu perrito para encontrarlo</string>
+    <string name="slide3">Apenas alguien nos diga que tiene o vio a tu perrito seras avisado para saber donde puedes reunirte con el.
+Claro esta, que si ofreces una recompensa más rápido podrá ser 
+encontrado tu perrito por la gente</string>
+    <string name="tut_cam">Encontre uno perdido\n\nSi ves a un perro en la calle como perdido, apurate y dale click aquí para ayudar a que regresar a su casa, tu eres su Super Heroe</string>
+    <string name="tut_escuadron">Escuadron de Busqueda\n\nSi se te perdio tu perro, entra aquí y nosotros haremos todo lo posible para encontrarlo pronto</string>
+    <string name="tut_drawer">Drawer Menú\n\nsi entras aquí, encontrarás el menú con todo lo que puedes ver y hacer en la aplicación.</string>
+    <string name="inactive">Si se te perdio un perro diferente al que ya activaste en nuestra plataforma</string>
+    <string name="escua_act">Activar Escuadron</string>
+    <string name="share_facebook">Compartir con facebook</string>
+    <string name="share_others">Compartir con otras</string>
+    <string name="share">Compartir</string>
+    <string name="title_activity_us">Acerca de nosotros</string>
+    <string name="us_description">Misión
+“CITE es una empresa dedicada a la implementación de tecnologías con el fin de crear experiencias y conexiones digitales entre personas y empresas de todo el mundo, ofreciendo soluciones efectivas, confiables y de calidad.”
+
+Frase de presentación 
+CITE crea experiencias y conexiones digitales entre personas y empresas de todo el mundo.
+
+Se reflejan los siguientes aspectos:
+Definición del campo de actividad: implementación de tecnologías digitales.
+Objetivo: crear experiencias y conexiones entre personas y empresas de todo el mundo.
+Valores y filosofía: la efectividad y calidad de las soluciones, y a la vez se genera un compromiso corporativo con estos dos valores.
+
+Visión
+En el 2020 CITE será una compañía internacional de marketing digital responsable, eficiente y competitiva, que impacte y potencialice relaciones comerciales de las empresas a nivel global.
+
+En el 2018 CITE será una compañía internacional de marketing digital que potencialice las relaciones comerciales de las empresas.
+
+
+Es clara en la posición deseada en el futuro. Representa un objetivo de crecimiento en el alcance y la importancia de la  empresa en las relaciones de las empresas.
+Valores y filosofía: además de la competitividad, se menciona de nuevo la eficiencia, ambos enfocados al objetivo de excelencia operativa; y se destaca la responsabilidad, dirigiéndose a la sociedad y el medio ambiente.
+
+VALORES
+
+Efectividad. Compromiso corporativo con los resultados de los servicios que ofrece la empresa.
+
+Calidad. Enfocarse en la excelencia operativa para brindar servicios de la mejor calidad posible.
+
+Confianza. Crear relaciones sólidas con nuestros clientes con el fin generar confianza con la empresa.
+
+Responsabilidad. </string>
+    <string name="error_after_fecha">La fecha es incorrecta</string>
+    <string name="chars_ids">35 caracteres</string>
+    <string name="chars_60">60 caracteres</string>
+    <string name="chars_114">114 caracteres</string>
+    <string name="chars_descripcion">400 caracteres</string>
+    <string name="chars_nombres_mascotas">40 caracteres</string>
+    <string name="error_chars">Exceso de caracteres permitidos</string>
+    <string name="ciudad_no_disponible">Heroican aun no esta disponible en tu ciudad o no has llenado el campo ciudad en facebook</string>
+    <string name="facebook_app_id">337060086502836</string>
+    <string name="login">Iniciar Sesión</string>
+    <!-- asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+    <string name="card_title_testimonio">Testimonio</string>
+    <string name="card_title_fundacion">Fundacion</string>
+    <string name="card_title_evento">Evento</string>
+    <string name="card_title_perdida">Mascota perdida</string>
+    <string name="card_title_encontrada">Mascota encontrada</string>
+    <string name="card_title_adopta">Adopta</string>
+    <string name="card_title_tip">Tip</string>
+    <string name="card_adoptar">espera que un superhéroe lo cuide</string>
+    <string name="card_encontrada">fue visto por un superhéroe en la calle</string>
+    <string name="card_perdida">está esperando que un superhéroe lo encuentre</string>
+    <string name="adopta">Adopta!</string>
+    <string name="actualizando">Actualizando</string>
+    <string name="listo">Listo!</string>
+    <string name="inprocess">En proceso</string>
+    <string name="escuadronbusqueda">Escuadrón de búsqueda</string>
+    <string name="encontreuno">Encontré un perro perdido</string>
+    <string name="estoyperdido">Estoy perdido!</string>
+    <string name="noDefinido">No definido</string>
+    <string name="toca_aqui">Toca aquí para actualizar</string>
+    <string name="otro">Se te perdió otro?</string>
+    <string name="tut_entendido">Entendido</string>
+    <string name="tut_omitir">Omitir</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="incentivo">si encontramos el dueño te ganaras una recompensa</string>
+    <string name="opcional">Esta información es opcional</string>
+    <string name="subEvt_descripcion">descripción</string>
+    <string name="subFun_razon">Razón social</string>
+    <string name="subEvt_caracateristicas">Características</string>
+    <string name="subFun_email">Email</string>
+    <string name="subFun_representante">Representante</string>
+    <string name="subFun_ccrepresentante">Cédula Representante</string>
+    <string name="subFun_telefono">Teléfono</string>
+    <string name="subFun_direccion">Dirección</string>
+    <string name="subFun_ciudad">Ciudad</string>
+    <string name="subFun_nit">Nit</string>
+    <string name="subEvt_contacto">contacto</string>
+    <string name="subEvt_titulo">titulo</string>
+    <string name="subEvt_fecha">fecha</string>
+    <string name="subfecha_cumple">fecha de cumpleaños</string>
+    <string name="subEvt_lugar">lugar</string>
+    <string name="subEvt_direccion">Dirección</string>
+    <string name="subEvt_guardar">Publicar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cancelar">cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="verMapa">ver en el mapa</string>
+    <string name="subMas_tamano">tamaño</string>
+    <string name="subMas_raza">raza</string>
+    <string name="donde_loviste">donde lo viste?</string>
+    <string name="donde_seperdio">donde se perdió?</string>
+    <string name="subMas_color">Recompensa</string>
+    <string name="subMas_sexo">sexo</string>
+    <string name="subMas_edad">edad</string>
+    <string name="subMas_nombre">nombre</string>
+    <string name="error_ubicacion">selecciona la ubicación</string>
+    <string name="error_campos">campos incorrectos</string>
+    <string name="reg_eresfundacion">Fundación</string>
+    <string name="reg_Persona">Persona</string>
+    <string name="registrate">Regístrate</string>
+    <string name="reg_siguiente">Siguiente</string>
+    <string name="reg_atras">Atrás</string>
+    <string name="reg_usuario">Usuario</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_passwordReplay">Confirmar password</string>
+    <string name="cargando">Cargando...</string>
+    <string name="activa_el_Escuadron">Activa el escuadrón</string>
+    <string name="activar">Activar</string>
+    <string name="imagen_fundacion">Imagen de la fundación</string>
+    <string name="imagen_evento">Imagen del evento</string>
+    <string name="imagen_compartir">Compartir</string>
+    <string name="imagen_corazon">Me gusta</string>
+    <string name="imagen_tip">Imagen del tip</string>
+    <string name="imagen_mapa">Ubica en el mapa</string>
+    <string name="imagen_testimonio">Imagen del testimonio</string>
+    <string name="imagen_mascota">Imagen de la mascota</string>
+    <string name="imagen_cumple">fecha de cumpleaños</string>
+    <string name="imagen_fecha">fecha</string>
+    <string name="drawer_inicio">Inicio</string>
+    <string name="drawer_MascotasPerdidas">Mascotas perdidas</string>
+    <string name="drawer_MascotasEncontradas">Mascotas encontradas</string>
+    <string name="drawer_Adopta">Adopta una mascota</string>
+    <string name="drawer_Eventos">Eventos</string>
+    <string name="drawer_Tips">Tips</string>
+    <string name="drawer_Fundaciones">Fundaciones</string>
+    <string name="drawer_Testimonios">Testimonios</string>
+    <string name="drawer_Escuadron">Escuadrón de Búsqueda</string>
+    <string name="drawer_EncontreUno">Encontré uno perdido</string>
+    <string name="drawer_SubirAdopcion">Publicar Adopción</string>
+    <string name="drawer_SubirEvento">Publicar Evento</string>
+    <string name="drawer_SubirTestimonio">Publicar Testimonio</string>
+    <string name="drawer_SubirTip">Publicar Tip</string>
+    <string name="drawer_CerrarSesion">Cerrar sesión</string>
+    <string name="campo_requerido">Campo requerido</string>
+    <string name="faltanCampos">Faltan campos</string>
+    <string name="faltaContacto">Escribe el contacto</string>
+    <string name="campo_corto">Demasiado corto</string>
+    <string name="email_incorrecto">Email incorrecto</string>
+    <string name="campo_nocoincide">Los campos no coinciden</string>
+    <string name="seleccioneGenero">Seleccione el género</string>
+    <string name="seleccioneCiudad">Seleccione la ciudad</string>
+    <string name="seleccioneImagen">Seleccione una foto</string>
+    <string name="seleccioneLaUbicacion">Seleccione la ubicación en el mapa</string>
+    <string name="email_registrado">El usuario ya está registrado</string>
+    <string name="registrado">Registro con éxito</string>
+    <string name="tegusta">Te gusta esta publicación</string>
+    <string name="notifire_perdido_t">está perdido</string>
+    <string name="notifire_perdido_d">ayúdanos a encontrarlo</string>
+    <string name="notifire_encontrado_t">Vimos a un perro perdido</string>
+    <string name="notifire_encontrado_d">Si lo conoces ayúdanos a encontrar su familia</string>
+    <string name="terminos">términos</string>
+    <string name="aceptarTerminos">Aceptas los términos y condiciones</string>
+    <string name="verTerminos">Ver términos y condiciones</string>
+    <string name="error_terminos">Debes aceptar los términos y condiciones</string>
+    <string name="menu_subir">Publicar</string>
+    <string name="action_escuadron">Escuadrón</string>
+    <string name="action_encontre">Encontré</string>
+    <string name="action_adopta">Adopta</string>
+    <string name="title_activity_act_registro">Registro</string>
+    <string name="title_btn_login_facebook">Login con Facebook</string>
+    <string name="title_btn_login_google">Login con Google</string>
+    <string name="conexion_error">Error en la conexión</string>
+    <string name="title_activity_terminos">Términos y Condiciones</string>
+    <string name="title_activity_registro_fundacion">Registro Fundación</string>
+    <string name="tittle_solicitar_escuadron">****** TITULO DEL ESCUADRON</string>
+    <string name="tittle_descripcion_solicitar_escuadron">****** DESCRIPCION DEL ESCUADRON</string>
+
+    <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+    <string name="no_address_found"></string>
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="no_geocoder_available"></string>
+    <string name="illegal_argument_exception"></string>
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+    <string name="screen_inicio">Home_Screen</string>
+    <string name="screen_perdidas">lostPets_Screen</string>
+    <string name="screen_encontradas">foundPets_Screen</string>
+    <string name="screen_adoptar">Adopt_Screen</string>
+    <string name="screen_eventos">Events_Screen</string>
+    <string name="screen_tips">Tips_Screen</string>
+    <string name="screen_fundaciones">Foundations_Screen</string>
+    <string name="screen_testimonios">Testimonials_Screen</string>
+    <string name="screen_escuadron">ActivarEscuadron_Screen</string>
+    <string name="screen_escuadronActivo">EscuadronActivo_Screen</string>
+    <string name="screen_encontreUnoPerdido">FoundLostOne_Screen</string>
+    <string name="screen_subirAdopcion">UploadAdoption_Screen</string>
+    <string name="screen_subirEvento">UploadEvent_Screen</string>
+    <string name="screen_subirTestimonio">UploadTestimony_Screen</string>
+    <string name="screen_subirTip">UploadTip_Screen</string>
+    <string name="screen_RegistroFundacionActivity">LogFoundation_Screen</string>
+    <string name="screen_RegistroPersonaActivity">LogPeople_Screen</string>
+    <string name="screen_Terminos">Terms_Screen</string>
+    <string name="screen_LoginActivity">LogIn_Screen</string>
+    <string name="screen_Us">Our_Screen</string>
+    <string name="dialog_perdidas">lostPet_Dialog</string>
+    <string name="dialog_encontradas">foundPet_Dialog</string>
+    <string name="dialog_adoptar">Adopt_Dialog</string>
+    <string name="dialog_eventos">Event_Dialog</string>
+    <string name="dialog_tips">Tip_Dialog</string>
+    <string name="dialog_fundaciones">Foundation_Dialog</string>
+    <string name="dialog_testimonios">Testimony_Dialog</string>
+    <string name="analytics_eventNavigation">EventNavigation</string>
+    <string name="analytics_eventSelection">EventSelection</string>
+    <string name="appfacebook_id">1550390418511767</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">HeroiCan</string>
+    <string name="title_activity_splash">Heroican</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_regsitro">Registro</string>
+    <string name="title_activity_cam">CamActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="IO_Exception_getFromLocation"></string>
+    <string name="title_activity_act_principal">Home</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

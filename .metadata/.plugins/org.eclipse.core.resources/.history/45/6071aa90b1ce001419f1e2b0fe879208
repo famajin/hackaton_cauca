@@ -1,0 +1,76 @@
+package com.example.googlemaps;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class RegistroActivity extends ActionBarActivity implements OnClickListener{
+
+	int pag=0;
+	private FragmentManager fragmentManager;
+	private FragRegSlide1 fragRegSlide1;
+	private FragRegSlide2 fragRegSlide2;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_registro);
+		
+		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
+        fragRegSlide1=new FragRegSlide1();
+        fragRegSlide2=new FragRegSlide2();
+        
+		((Button)findViewById(R.id.reg_btnBack)).setOnClickListener(this);
+		((Button)findViewById(R.id.reg_btnNext)).setOnClickListener(this);
+        
+		replace(frag, tag)
+	}
+	
+	public void replace(Fragment frag, String tag) {
+		fragmentManager.beginTransaction()
+		.replace(R.id.reg_frame, frag, tag)
+		.commit();
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.menu_null, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		
+		if(item.getItemId()==android.R.id.home){
+			finish();
+		}
+		return true;
+	}
+	
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch (v.getId()) {
+		case R.id.reg_btnBack:
+			
+			finish();
+			break;
+
+		case R.id.reg_btnNext:
+			
+			break;
+		}
+	}
+	
+}

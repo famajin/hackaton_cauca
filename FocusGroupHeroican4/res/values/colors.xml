@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="primary">#ffed5500</color>
+    <color name="primaryDark">#ffd45500</color>
+    <color name="accent">#ff999999</color>
+    <color name="control_normal">#ff999999</color>
+    <color name="background">#ffffffff</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ff333333</color>
+    <color name="textColor">#ff000000</color>
+    <color name="press_light">#20333333</color>
+    <color name="press_bool_yes">#99333333</color>
+    <color name="press_bool_not">#99333333</color>
+    
+    <color name="col1">#ffd40000</color>
+    <color name="col2">#ffff6600</color>
+    <color name="col3">#ffffb700</color>
+    <color name="col4">#ffaab700</color>
+    <color name="col5">#ff00aad4</color>
+    
+</resources>

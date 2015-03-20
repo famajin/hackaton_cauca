@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FocusGroupHeroican</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_ver">Ver funcionalidad</string>
+    <string name="yes">Si</string>
+    <string name="not">No</string>
+    <string name="hint_deslizate">Deslizate para responder</string>
+    <string name="hint_porque">¿Por que?</string>
+    <string name="hint_cual">¿Cual? ¿el error fue solucionado?</string>
+    <string name="hint_cambiarias">¿Cambiarias alguno?</string>
+    <string name="general">HeroiCan</string>
+    <string name="gen_pre1">1. ¿Cuál es tu percepción de la aplicación en general?</string>
+    <string name="gen_pre2">2. ¿Cuál es tu nivel de interés en la aplicación?</string>
+    <string name="gen_pre3">3. ¿Consideras apropiado los colores utilizados en la aplicación?</string>
+    <string name="gen_pre4">4. ¿Descargarías o continuarias usando la aplicación?</string>
+    <string name="gen_pre5">5. ¿Recomendarias la aplicación a un familiar o amigo?</string>
+    <string name="gen_pre6">6. ¿Se presentó algún tipo de error mientras utilizabas la aplicación?</string>
+    <string name="rang_a_1">Muy malo</string>
+    <string name="rang_a_2">Malo</string>
+    <string name="rang_a_3">Regular</string>
+    <string name="rang_a_4">Bueno</string>
+    <string name="rang_a_5">Muy bueno</string>
+    <string name="rang_b_1">Indiferente</string>
+    <string name="rang_b_2">Poco interesante</string>
+    <string name="rang_b_3">Interesante</string>
+    <string name="rang_b_4">Muy interesante</string>
+    <string name="rang_c_4">Muy facil</string>
+    <string name="rang_c_3">Facil</string>
+    <string name="rang_c_2">Dificl</string>
+    <string name="rang_c_1">Muy dificil</string>
+    <string name="fun_pre1">1. ¿Cuál es tu percepción de esta funcionalidad?</string>
+    <string name="fun_pre2">2. ¿La información de la funcionalidad es clara?</string>
+    <string name="fun_pre3">3. ¿Cuál es la complejidad de esta funcionalidad?</string>
+    <string name="fun_pre4">4.¿Accediste fácil a esta funcionalidad?</string>
+    <string name="fun_pre5">5. ¿Los elementos de la pantalla (botones, textos..) te parecen agradables y claros?</string>
+    <string name="fun_pre6">6. ¿le agregarías o le quitarías algo a la funcionalidad?</string>
+    <string name="fun_pre7">7. ¿Se presento algun error?</string>
+    <string name="fun_1">Escuadron de busqueda</string>
+    <string name="fun_2">Ver mascotas perdidas</string>
+    <string name="fun_3">Ver mascotas encontradas</string>
+    <string name="fun_4">Encontre uno perdido</string>
+    <string name="fun_5">Ver adopciones</string>
+    <string name="fun_6">Publicar adopciones</string>
+    <string name="fun_7">Ver eventos</string>
+    <string name="fun_8">Publicar eventos</string>
+    <string name="fun_9">Ver tips</string>
+    <string name="fun_10">Publicar tips</string>
+    <string name="fun_11">Ver testimonios</string>
+    <string name="fun_12">Publicar testimonios</string>
+    <string name="fun_13">Ver fundaciones</string>
+    <string name="fun_14">Favorito/corazón</string>
+    <string name="fun_15">Tutorial</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_encuesta">EncuestaActivity</string>
+    <string name="title_activity_admin_encuesta">AdminEncuestaActivity</string>
+    <string name="title_activity_admin_question">AdminQuestionActivity</string>
+    <string name="config">Configurar</string>
+    <string name="ver_comentarios">Ver comentarios</string>
+    <string name="continuar">Continuar</string>
+    <string name="todos">Todos</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="genero">Genero</string>
+    <string name="cargo">Cargo</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="title_activity_admin_comment">AdminCommentActivity</string>
+
+    <string name="error_conexion">Error en la conexion</string>
+    <string name="ya_llenaste">Ya llenaste la encuesta</string>
+    
+    <string name="enviar_encuesta">Enviar encuesta</string>
+    
+</resources>

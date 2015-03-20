@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    
+    <string name="cedula">Cedula</string>
+    <string name="nombre">Nombre</string>
+    <string name="cedula_cafetera">Cedula cafetera</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="hectareas">Hectareas</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="entrar">Entrar</string>
+    <string name="regitrate">Registrate</string>
+    <string name="altura">Altura de tu ubicación</string>
+    <string name="menor_1850">Menor a 1850 mts</string>
+    <string name="entre_1850">Entre 1850 mts y 2100 mts</string>
+    <string name="anos">Años</string>
+    <string name="meses">Meses</string>
+
+</resources>

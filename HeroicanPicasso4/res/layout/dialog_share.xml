@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <LinearLayout 
+	    android:layout_width="@dimen/w_dialog_share"
+	    android:layout_height="@dimen/h_dialog_share"
+	    android:orientation="vertical"
+	    android:background="@color/blanco"
+        >
+	    <Button 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/dialShare_btnFacebook"
+	        android:textColor="@color/col_words"
+	        android:text="@string/share_facebook"
+	        />
+	    
+	    <Button 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/dialShare_btnOthers"
+	        android:textColor="@color/col_words"
+	        android:text="@string/share_others"
+	        />
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string-array name="deptos">
+        <item >Selecciona tu departamento</item>
+        <item >Cauca</item>
+   </string-array>
+   
+    <string-array name="municipios">
+        <item >Selecciona tu municipio</item>
+        <item >Caloto</item>
+        <item >Guachené</item>
+        <item >Miranda</item>
+        <item >Padilla</item>
+        <item >Puerto Tejada</item>
+        <item >Caloto</item>
+        <item >Caloto</item>
+        <item >Caloto</item>
+        Corinto
+   </string-array>
+   
+</resources>

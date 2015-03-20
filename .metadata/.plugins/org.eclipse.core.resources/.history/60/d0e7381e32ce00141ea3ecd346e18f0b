@@ -1,0 +1,22 @@
+package com.example.googlemaps;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.SupportMapFragment;
+
+public class MainActivity extends ActionBarActivity {
+
+	private GoogleMap mapa;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		mapa = ((SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map)).getMap();
+		
+	}
+	
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_tutorial"
+    >
+    
+	<LinearLayout
+	    android:id="@+id/dialTutorial_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+		<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="right"
+	        >
+	        <Button 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/dialTutorial_btnOmitir"
+	            android:text="@string/tut_omitir"
+	            android:textColor="@color/negro"
+	            android:background="@drawable/selector_tutorial"
+	            android:padding="@dimen/padding_tutorial"
+	            android:minWidth="@dimen/min_tutorial"
+	            android:layout_margin="@dimen/margin_tutorial"
+	            />
+	        
+			<Button 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/dialTutorial_btnEntendido"
+	            android:text="@string/tut_entendido"
+	            android:textColor="@color/negro"
+	            android:background="@drawable/selector_tutorial"
+	            android:padding="@dimen/padding_tutorial"
+	            android:minWidth="@dimen/min_tutorial"
+	            android:layout_margin="@dimen/margin_tutorial"
+	            />
+	    </LinearLayout>
+	        <FrameLayout
+	            android:id="@+id/dialTutorial_frame"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="90"
+		        />
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/H_cancel"
+	        >
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="horizontal"
+		        >
+		        <RelativeLayout 
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="match_parent"
+		            >
+			        <ImageView
+			            android:id="@+id/dialTutorial_imgCamara" 
+			            android:layout_width="@dimen/h_buttons"
+			            android:layout_height="@dimen/h_buttons"
+			            android:src="@drawable/ic_camarablanca"
+			            android:layout_centerInParent="true"
+			            android:padding="10dp"
+			            android:visibility="invisible"
+			            />
+		        </RelativeLayout>
+		        
+		        <RelativeLayout 
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="match_parent"
+		            >
+			        <ImageView
+			            android:id="@+id/dialTutorial_imgEscuadron"
+			            android:layout_width="@dimen/h_buttons"
+			            android:layout_height="@dimen/h_buttons"
+			            android:src="@drawable/ic_lupablanca"
+			            android:layout_centerInParent="true"
+			            android:padding="10dp"
+			            android:visibility="invisible"
+			            />
+		        </RelativeLayout>
+	
+		    </LinearLayout>
+	        <TextView 
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+		        android:layout_marginTop="@dimen/divider_tab"
+		        android:layout_marginBottom="@dimen/divider_tab"
+		        android:background="@color/blanco"
+		        android:layout_centerInParent="true"
+	            />
+	    </RelativeLayout>
+	        
+	    </LinearLayout>
+    
+
+</LinearLayout>

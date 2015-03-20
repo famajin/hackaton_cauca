@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    
+    <string name="cedula">Cedula</string>
+    <string name="nombre">Nombre</string>
+    <string name="cedula_cafetera">Cedula cafetera</string>
+    <string name="entrar">Entrar</string>
+    <string name="regitrate">Registrate</string>
+
+</resources>

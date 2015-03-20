@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.focusgroupheroican"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+	app:popupTheme="@style/lollipop_style"
+	android:background="@color/primary"
+	app:theme="@style/lollipop_style_actionbar"
+    />
+
+<!--     	app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" -->
+<!--     app:popupTheme="@style/ThemeOverlay.AppCompat.Light" -->

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dialConfig_container"
+    >
+  
+    <AbsoluteLayout
+        android:id="@+id/dialConfig_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_dialog"
+        android:layout_marginLeft="@dimen/margin_dialog_left"
+        android:layout_marginTop="@dimen/margin_dialog_top"
+        android:layout_marginRight="@dimen/margin_dialog_right"
+        android:layout_marginBottom="@dimen/margin_dialog_bottom"
+        >
+        
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+		android:padding="@dimen/padding_dialog">
+		<ScrollView 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    >
+		   <LinearLayout 
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:orientation="vertical"
+		       >
+				<LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+					<TextView 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/genero"
+					    android:textSize="@dimen/font_large"
+					    android:gravity="center"
+					    />
+					<RadioGroup
+					    android:id="@+id/dialConfig_groupGenero"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"/>
+				</LinearLayout>
+				
+			   <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+					<TextView 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/edad"
+					    android:textSize="@dimen/font_large"
+					    android:gravity="center"
+					    />
+					<RadioGroup
+					    android:id="@+id/dialConfig_groupEdad"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"/>
+				</LinearLayout>
+				
+			   <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical">
+					<TextView 
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/cargo"
+					    android:gravity="center"
+					    android:textSize="@dimen/font_large"/>
+					<RadioGroup
+					    android:id="@+id/dialConfig_groupCargos"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"/>
+				</LinearLayout>
+		   </LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+        
+
+   </AbsoluteLayout>
+
+</LinearLayout>

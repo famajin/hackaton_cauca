@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/div_items"
+        >
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/margin_txt"
+	        android:id="@+id/viewRang_description"
+	        android:textSize="@dimen/font_medium"
+	        />
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        >
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="@dimen/margin_txt"
+		        android:id="@+id/viewBool_txtSeek"
+		        android:textSize="@dimen/font_medium"
+		        android:gravity="center"
+		        />
+	        <SeekBar
+	            android:id="@+id/question_seekbar"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            />
+	    </LinearLayout>
+	    <EditText
+	        android:id="@+id/viewBool_edt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/margin_edt"
+	        android:maxHeight="@dimen/max_h_edittext"
+	        />
+    </LinearLayout>
+
+
+</LinearLayout>

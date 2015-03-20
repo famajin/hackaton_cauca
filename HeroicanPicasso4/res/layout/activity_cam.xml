@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal">
+     
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	     <sas.buxtar.movil.heroican.views.SurfaceCamera
+	          android:id = "@+id/surface"
+	          android:layout_width="match_parent"
+	          android:layout_height = "match_parent"
+	          />
+	     <LinearLayout 
+	         android:layout_width="match_parent"
+	         android:layout_height="match_parent"
+	         android:orientation="vertical"
+	         >
+	         <FrameLayout 
+	             android:layout_width="match_parent"
+	             android:layout_height="0dp"
+	             android:layout_weight="80">
+
+	             <ProgressBar
+	                 android:id="@+id/progressBar1"
+	                 style="?android:attr/progressBarStyleLarge"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content" />
+
+	         </FrameLayout>
+	         <LinearLayout 
+	             android:layout_width="match_parent"
+	             android:layout_height="0dp"
+	             android:layout_weight="20"
+	             android:background="@drawable/shape_camara"
+	             android:orientation="horizontal"
+	             >
+	             <RelativeLayout 
+	                 android:layout_width="0dp"
+	                 android:layout_weight="1"
+	                 android:layout_height="match_parent"
+	                 >
+		             <ImageButton
+		                 android:id="@+id/btnCambiarCamara"
+		                 android:layout_width="@dimen/h_buttons"
+		                 android:layout_height="@dimen/h_buttons"
+		                 android:layout_centerInParent="true"
+		                 android:src="@android:drawable/ic_popup_sync"
+		                 android:background="@null"
+		                 />
+	             </RelativeLayout>
+	             <RelativeLayout 
+	                 android:layout_width="0dp"
+	                 android:layout_weight="1"
+	                 android:layout_height="match_parent"
+	                 >
+		             <ImageButton
+		                 android:id="@+id/btnFoto"
+		                 android:layout_width="@dimen/h_buttons"
+		                 android:layout_height="@dimen/h_buttons"
+		                 android:layout_centerInParent="true"
+		                 android:src="@android:drawable/ic_menu_camera"
+		                 android:background="@null"
+		                 />
+	             </RelativeLayout>
+	             <RelativeLayout 
+	                 android:layout_width="0dp"
+	                 android:layout_weight="1"
+	                 android:layout_height="match_parent"
+	                 >
+		             <ImageButton
+		                 android:id="@+id/btnFlash"
+		                 android:layout_width="@dimen/h_buttons"
+		                 android:layout_height="@dimen/h_buttons"
+		                 android:layout_centerInParent="true"
+		                 android:src="@android:drawable/ic_menu_call"
+		                 android:background="@null"
+		                 />
+	             </RelativeLayout>
+	         </LinearLayout>
+	     </LinearLayout>
+	     
+	     <TextView
+	         android:id="@+id/cam_txtCargar"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/cargando"
+	         android:layout_centerInParent="true"
+	         android:textSize="@dimen/font_grande"
+	         android:textStyle="bold"
+	         android:visibility="gone"
+	         />
+	     
+	</RelativeLayout>
+
+</LinearLayout>

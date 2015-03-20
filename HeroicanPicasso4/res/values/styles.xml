@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Bsa" parent="Theme.AppCompat">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/edittext_presed</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <style name="Bsa2" parent="Theme.AppCompat">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        
+        <item name="colorControlNormal">@android:color/white</item>
+		
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+	<style name="Bsa3" parent="Theme.AppCompat">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/edittext_presed</item>
+<!--         <item name="colorControlNormal">@android:color/white</item> -->
+		
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+<!-- 	COLOR NAVIGATION UP -->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme2.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow --> 
+        <item name="colorControlNormal">@color/blanco</item>
+    </style>
+
+    <style name="AppTheme2.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!-- Set proper title size -->
+<!--         <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item> -->
+        <!-- Set title color -->
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+ <!-- 	COLOR NAVIGATION UP -->
+
+
+</resources>

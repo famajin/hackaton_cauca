@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris">
+    
+    <TextView
+        android:id="@+id/map_txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/H_buttons"
+        android:gravity="center"
+        />
+	<fragment
+        android:id="@+id/fr_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        />
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/H_cancel"
+	    >
+	<LinearLayout
+	    android:id="@+id/selback"
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <Button
+	        android:id="@+id/map_cancelar"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+		    android:text="@string/cancelar"
+		    android:background="@drawable/selector"
+		    android:textColor="@color/blanco"
+	        />
+		<Button
+		    android:id="@+id/map_guardar"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+		    android:text="@string/subEvt_guardar"
+		    android:background="@drawable/selector"
+		    android:textColor="@color/blanco"
+	        />
+	</LinearLayout>
+        <TextView 
+            android:layout_width="@dimen/divider_width"
+            android:layout_height="match_parent"
+	        android:layout_marginTop="@dimen/divider_tab"
+	        android:layout_marginBottom="@dimen/divider_tab"
+	        android:background="@color/blanco"
+	        android:layout_centerInParent="true"
+            />
+	</RelativeLayout>
+	
+</LinearLayout>

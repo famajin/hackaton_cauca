@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string-array name="deptos">
+        <item >Selecciona tu departamento</item>
+        <item >Cauca</item>
+   </string-array>
+   
+    <string-array name="municipios">
+        <item >Selecciona tu municipio</item>
+        <item >Caloto</item>
+        <item >Guachené</item>
+        <item >Miranda</item>
+        <item >Padilla</item>
+        <item >Puerto Tejada</item>
+        <item >Santander de Quilichao</item>
+        <item >Suárez</item>
+        <item >Villa Rica</item>
+        <item >Cajibío</item>
+        <item >El Tambo</item>
+        <item >La Sierra</item>
+        <item >Morales</item>
+        <item >Piendamó</item>
+        <item >Popayán</item>
+        <item >Rosas</item>
+        <item >Sotará</item>
+        <item >Timbío</item>
+   </string-array>
+   
+    <string-array name="variedades">
+        <item >Selecciona la variedad</item>
+        <item >Catimore</item>
+        <item >borbon</item>
+        <item >castillo</item>
+        <item >Padilla</item>
+        <item >caturra</item>
+        <item >maragogipe</item>
+        <item >común</item>
+        <item >variedad colombia</item>
+        <item >F8</item>
+        <item >Supremo</item>
+   </string-array>
+   
+</resources>

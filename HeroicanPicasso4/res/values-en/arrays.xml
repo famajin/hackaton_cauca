@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer">
+		<item>Home</item>
+        <item>Lost pets</item>
+        <item>Found pets</item>
+        <item>Adopt a pet</item>
+        <item>Events</item>
+        <item>Tips</item>
+        <item>Foundations</item>
+        <item>Testimonials</item>
+        <item>Search Squad</item>
+        <item>I found a lost pet</item>
+        <item>Post Adoption</item>
+        <item>Post Event</item>
+        <item>Post Testimony</item>
+        <item>Post Tip</item>
+        <item>Sign out</item>
+   </string-array>
+    
+    <string-array name="genero">
+        <item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+   </string-array>
+
+    <string-array name="genero_personas">
+		<item>Select</item>
+        <item>Male</item>
+        <item>Female</item>
+   </string-array>
+   
+    <string-array name="ciudades">
+        <item >Seleccione</item>
+        <item >Bogota</item>
+        <item >Medellin</item>
+        <item >Cali</item>
+        <item >Popayán</item>
+        <item >Villa Vicencio</item>
+   </string-array>
+   
+	<string-array name="razas">
+        <item >Seleccione</item>
+		<item >Criollo mediano </item>
+		<item >Criollo grande </item>
+		<item >Akita inu </item>
+		<item >American pit bull terrier </item>
+		<item >Beagle </item>
+		<item >Border collie </item>
+		<item >Bull terrier </item>
+		<item >Bulldog americano </item>
+		<item >Bulldog francés </item>
+		<item >Bulldog inglés </item>
+		<item >Cairn terrier </item>
+		<item >Chow chow </item>
+		<item >Cocker spaniel inglés </item>
+		<item >Crestado chino </item>
+		<item >Dálmata </item>
+		<item >Dogo de burdeos </item>
+		<item >Fila brasilero </item>
+		<item >French poodle o caniche </item>
+		<item >Fox terrier </item>
+		<item >Golden retriever </item>
+		<item >Gran danés </item>
+		<item >Husky siberiano </item>
+		<item >Labrador retriever </item>
+		<item >Pastor alemán </item>
+		<item >Pastor collie </item>
+		<item >Pinschner miniatura </item>
+		<item >Pomerania </item>
+		<item >Pug o carlino </item>
+		<item >San Bernardo </item>
+		<item >Schnauzer miniatura </item>
+		<item >Shiba inu </item>
+		<item >Shihtzu </item>
+		<item >Springer spaniel ingles </item>
+		<item >Weimaraner </item>
+		<item >Yorkshire terrier</item>
+   </string-array>
+   
+   
+	<string-array name="edades">
+		<item>Select</item>
+        <item>Puppy</item>
+        <item>Adult</item>
+        <item>Elderly</item>
+   </string-array>
+   
+	<string-array name="colores">
+		<item>Select</item>
+        <item>US$5 to US$25</item>
+        <item>US$26 to US$50</item>
+        <item>US$51 to US$100</item>
+        <item>More than US$100</item>
+   </string-array>
+   
+	<string-array name="tamano">
+        <item>Select</item>
+        <item>Miniature</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Giant</item>
+   </string-array>
+  
+</resources>

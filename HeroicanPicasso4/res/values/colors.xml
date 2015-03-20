@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="edittext_presed">#b3b3b3</color>
+    <color name="edittext_focus">#b3b3b387</color>
+    <color name="col_hint">#b3b3b3</color>
+    <color name="col_words">#000000</color>
+    <color name="col1">#0099CC</color>
+    <color name="col2">#9933CC</color>
+    <color name="col3">#669900</color>
+    <color name="col4">#FF8800</color>
+    <color name="col5">#CC0000</color>
+    <color name="gris">#e6e6e6</color>
+    <color name="blanco">#ffffff</color>
+    <color name="negro">#000000</color>
+    <color name="pressDrawer">#0093B4</color>
+    <color name="app_color">#0093B4</color>
+    <color name="rojo">#ff6600</color>
+    <color name="verdemanzana">#ffc300</color>
+    <color name="morado">#a54ba8</color>
+    <color name="verdehoja">#009800</color>
+    <color name="azulagua">#00b4e0</color>
+    <color name="rosado">#dacf00</color>
+    <color name="amarillo">#ff7e7e</color>
+    <color name="naranja">#00b3b3</color>
+    <color name="azulclaro">#d30083</color>
+    <color name="rojogoogle">#FF383B</color>
+    <color name="azulfacebook">#2167E0</color>
+
+</resources>

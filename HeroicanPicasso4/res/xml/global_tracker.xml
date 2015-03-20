@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+	
+	<screenName name="sas.buxtar.movil.heroican.MainActivity">Home_Screen</screenName>
+	<screenName name="sas.buxtar.movil.heroican.RegistroFundacionActivity">LogFoundation_Screen</screenName>
+	<screenName name="sas.buxtar.movil.heroican.RegistroPersonaActivity">LogPeople_Screen</screenName>
+	<screenName name="sas.buxtar.movil.heroican.LoginActivity">LogIn_Screen</screenName>
+	<screenName name="sas.buxtar.movil.heroican.TerminosActivity">Terms_Screen</screenName>
+	<screenName name="sas.buxtar.movil.heroican.UsActivity">Our_Screen</screenName>
+    
+    <string name="ga_trackingId">UA-54758154-2</string>
+</resources>

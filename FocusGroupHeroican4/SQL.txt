@@ -1,0 +1,25 @@
+
+
+
+CREATE TABLE tbl_usuario (usu_id INTEGER, carg_id INTEGER, edad_id INTEGER, usu_nombre VARCHAR(100), usu_sex INTEGER, PRIMARY KEY(usu_id));
+
+CREATE TABLE tbl_cargo (carg_id INTEGER, carg_description VARCHAR(100), PRIMARY KEY(carg_id));
+
+CREATE TABLE tbl_edad (edad_id INTEGER, edad_description VARCHAR(100), PRIMARY KEY(edad_id));
+
+CREATE TABLE tbl_hint (hint_id INTEGER, hint_description VARCHAR(100), PRIMARY KEY(hint_id));
+
+//CREAMOS UN CAMPO DE RANG_ID SOLO SI EL TIPO DE PREGUNTA ES RANGO
+CREATE TABLE tbl_question (ques_id INTEGER, hint_id INTEGER, ques_tipe INTEGER, ques_description VARCHAR(700), rang_id INTEGER, PRIMARY KEY(ques_id));
+
+//ESTA TABLA ES PARA LOS RANGOS
+CREATE TABLE tbl_rang (rang_id INTEGER, rang_pos INTEGER, ans_id INTEGER);
+
+//GUARDAR SI/NO BUENO/MUY BUENO/EXCELENTE
+CREATE TABLE tbl_answer (ans_id INTEGER, ans_tipe INTEGER, ans_description VARCHAR(700), PRIMARY KEY(ans_id));
+
+//LA SELECCION
+CREATE TABLE tbl_choice (cho_id INTEGER, usu_id INTEGER, ques_id INTEGER, ans_id INTEGER, PRIMARY KEY(cho_id));
+
+//GUARDAMOS LOS COMENTARIOS DE LOS PORQUE?
+CREATE TABLE tbl_comment (com_id INTEGER, cho_id INTEGER, com_description VARCHAR(1000), PRIMARY KEY(com_id));

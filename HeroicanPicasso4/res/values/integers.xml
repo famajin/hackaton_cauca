@@ -1,0 +1,20 @@
+<resources>
+    <integer name="card_flip_time_max">1000</integer>
+    <integer name="card_flip_time_full">500</integer>
+    <integer name="card_flip_time_half">250</integer>
+    
+    <integer name="w_trasparenciaSobr">61</integer>
+    <integer name="w_trasparencia">26</integer>
+    <integer name="w_trasparenciadiv">13</integer>
+    
+    <integer name="dw_trasparenciaSobr">67</integer>
+    <integer name="dw_trasparencia">22</integer>
+    <integer name="dw_trasparenciadiv">11</integer>
+    <integer name="time_animload">500</integer>
+    
+    <integer name="chars_ids">35</integer>
+    <integer name="chars_60">60</integer>
+    <integer name="chars_114">114</integer>
+    <integer name="chars_descripcion">400</integer>
+    <integer name="chars_nombres_mascotas">40</integer>
+</resources>

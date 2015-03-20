@@ -1,0 +1,55 @@
+package com.example.googlemaps;
+
+import sas.buxtar.movil.heroican.MainActivity;
+import sas.buxtar.movil.heroican.SplashActivity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+
+public class SplashActivity extends ActionBarActivity {
+
+	private final int TIME_WAIT=1000;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_splash);
+		
+		SharedPreferences preferences = getSharedPreferences(GeneralData.PREFERENCES_NAME,Context.MODE_PRIVATE);
+		String usu_cedula=preferences.getString(GeneralData.PREF_CEDULA, "null");
+		
+		if(usu_cedula.equals("null")){
+			SharedPreferences.Editor editor = preferences.edit();
+			editor.putString(GeneralData.PREF_CEDULA, "");
+		}else if(usu_cedula.equals("")){
+			startActivity(new Intent(this, LoginActivity.class));
+		}else{
+			Thread t = new Thread() {
+	            @Override
+	            public void run() {
+	                try {
+	                	try {
+	                		Thread.sleep(TIME_WAIT);
+						} catch (Exception e) {}
+	            		try {
+	            			System.gc();	
+	            		} catch (Exception e) {}
+	                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
+	                    finish();
+	                    try {
+//	                    	Looper.loop();
+//	                        Looper.myLooper().quit();	
+						} catch (Exception e) {}
+	                } catch (Exception e) {
+	                	
+	                }
+	            }
+	        };
+	        t.start();
+		}
+		
+	}
+	
+}
